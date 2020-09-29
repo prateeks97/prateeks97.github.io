@@ -2112,7 +2112,7 @@
 			z-index: 1;
 			margin: 0;
 			display: inline-block;
-			/* vertical-align: middle; */
+			vertical-align: middle;
 		}
 
 		#header header {
@@ -2322,7 +2322,7 @@
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
+		padding: 3.0em 0 3.0em 0;
 		margin-bottom: 0;
 	}
 
@@ -2524,7 +2524,7 @@
 				top: 0;
 				width: auto;
 				margin-right: -2em;
-				margin-bottom: 3em;
+				margin-bottom: 0em;
 			}
 
 			.carousel article p {
@@ -2553,7 +2553,7 @@
 				}
 
 				.carousel article {
-					width: 18em;
+					width: 20em;
 					margin: 0 1.25em 0 0;
 				}
 
