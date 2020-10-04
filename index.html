@@ -45,8 +45,8 @@
 					<header>
 						
 						<p><h2><strong>Research in Motion Planning</strong></h2></p>
-						<p align= "center">Curvature Optimization and Path Smoothening for RRT</p>
-
+						<p align= "center"><strong>Curvature Optimization and Path Smoothening for RRT</strong></p>
+						<p align= "left"> Designed 2 post-processing algorithms to smoothen the path obtained from RRT with differential constraints</p>
 					</header>
 				</section>
 
@@ -57,21 +57,43 @@
 						  <!-- Motion Planning -->
 						  <article>
 							<a class="image featured" href="https://github.com/prateeks97/Motion_Planning/tree/master/Sampling_based/RRT_RRT_star">
-								  <img src="images/Gif/Motion Planning/rrt_star_gif.gif" alt="" />
+								  <img src="images/Gif/Path Smoothing/Map1.gif" alt="" />
 								  <header>
-									  <h3>RRT*</h3>
+									  <h3>Default Map</h3>
 								  </header>
-								  <p>Asymptotically optimal version of RRT</p>
+								  <p>Optimizes for the loop formed in the Path</p>
 							  </a>
 						  </article>
 
 						  <article>
 							<a class="image featured" href="https://github.com/prateeks97/Motion_Planning/tree/master/Sampling_based/RRT_RRT_star">
-								  <img src="images/Gif/Motion Planning/RRT_gif.gif" alt="" />
+								<img src="images/Gif/Path Smoothing/Map2.gif" alt="" />
 								  <header>
-									  <h3>RRT</h3>
+									  <h3>Maze Map</h3>
 								  </header>
-								  <p>Rapidly Exploring Random Tree</p>
+								  <p>Reduces path length</p>
+							  </a>
+						  </article>
+
+						  <article>
+							<a class="image featured" href="https://github.com/prateeks97/Motion_Planning/tree/master/Sampling_based/RRT_RRT_star">
+								<img src="images/Gif/Path Smoothing/Map3.gif" alt="" />
+								  <header>
+									  <h3>Scattered Sqaure Map</h3>
+								  </header>
+								  <p>Less computational time with Goal Check</p>
+							  </a>
+						  </article>
+
+						  <article>
+							<a class="image featured" href="https://github.com/prateeks97/Motion_Planning/tree/master/Sampling_based/RRT_RRT_star">
+								<img src="images/Gif/Path Smoothing/Results Plot.jpeg" alt="" />
+								  <header>
+									  <h3>Comparison Plots</h3>
+								  </header>
+								  <p>- Reduced the average curvature by 90% and path length by 50% with only a 10% increase in the overhead time</p>
+								<p>- Path obtained can be directly used by Path tracking controller</p>
+
 							  </a>
 						  </article>
 					</div>
@@ -84,7 +106,8 @@
 					<header>
 						
 						<p><h2><strong>Turtlebot 3 Burger Implementations</strong></h2></p>
-						<p align= "center">Hands-on experience in implementing Autonomous driving algorithms in Simulation and actual Embedded Systems </p>
+						<p align= "center">- Hands-on experience in developing and implementing Autonomous driving algorithms in Simulation and actual Embedded System<br> 
+							- Integrated Line following, Obstacle Avoidance, Stop Sign Detection, AprilTag detection, Human Detection and Tracking with Behaivor Planning to make the Turtlebot Fully Autonomously </p>
 
 					</header>
 				</section>
@@ -100,7 +123,7 @@
 								<header>
 									<h3>AprilTag Tracking</h3>
 								</header>
-								<p>Using YOLO for AprilTag Detection</p>
+								<p>Used YOLO for AprilTag Detection</p>
 							</a>
 						</article>
 
@@ -110,7 +133,7 @@
 								<header>
 									<h3>Line Following</h3>
 								</header>
-								<p>Using YOLO as a trained data set for line recognition</p>
+								<p>Used YOLO for line recognition</p>
 							</a>
 						</article>
 
@@ -120,7 +143,7 @@
 								  <header>
 									  <h3>Wall Following</h3>
 								  </header>
-								  <p>TurtleBot 3 Burger Implementaion</p>
+								  <p>Used 2D Point cloud data from Lidar to navigate</p>
 							  </a>
 						  </article>
 
@@ -128,9 +151,9 @@
 							<a class="image featured" href="https://github.com/prateeks97/ROS/tree/master/AuE893Spring2020/src/assignment5_trackingandfollowing">
 								<img src="images/Gif/TurtleBot/Final Project/final_project_complete.gif" alt="" />
 								<header>
-									<h3>SIL Simulation in gazebo</h3>
+									<h3>Complete Autonomous Driving Stack</h3>
 								</header>
-								<p>Complete Autonomous driving stack with finite state machine for behavior control</p>
+								<p>Used Finite State Machine for Behavior control</p>
 							</a>
 						</article>
 
@@ -140,7 +163,7 @@
 								  <header>
 									  <h3>Obstacle Avoidance</h3>
 								  </header>
-								  <p>TurtleBot 3 Burger Local Navigation in obstacle space</p>
+								  <p>Local Navigation in Obstacle Space</p>
 							  </a>
 						  </article>
 
@@ -148,9 +171,9 @@
 							<a class="image featured" href="https://github.com/prateeks97/ROS/tree/master/AuE893Spring2020/src/assignment5_trackingandfollowing">
 								  <img src="images/Gif/TurtleBot/Line Following/Line_following_sim.gif" alt="" />
 								  <header>
-									  <h3>Line following in gazebo</h3>
+									  <h3>Line following in Gazebo</h3>
 								  </header>
-								  <p>YOLO used to detect yellow line</p>
+								  <p>Detecting and Tracking Yellow line's center</p>
 							  </a>
 						  </article>
 
@@ -160,7 +183,7 @@
 								  <header>
 									  <h3>Wall following in gazebo</h3>
 								  </header>
-								  <p>Lidar point cloud data used with a PID controller to stay between the walls</p>
+								  <p>Used 2D Lidar data to navigate</p>
 							  </a>
 						  </article>
 
@@ -170,7 +193,7 @@
 								  <header>
 									  <h3>Obstacle Avoidance in gazebo</h3>
 								  </header>
-								  <p>Lidar data used to avoid static obstacles</p>
+								  <p>Local Navigation avoiding static obstacles</p>
 							  </a>
 						  </article>
 
@@ -178,9 +201,9 @@
 							<a class="image featured" href="https://github.com/prateeks97/ROS/tree/master/AuE893Spring2020/src/assignment3_turtlebot3">
 								  <img src="images/Gif/TurtleBot/TurtleBot Basics/TurtleBot/square.gif" alt="" />
 								  <header>
-									  <h3>Manuevering Turtlebot to make a Square</h3>
+									  <h3>Square</h3>
 								  </header>
-								  <p>Turtlebot basics- Controlling the movement of Turtlebot</p>
+								  <p>Turtlebot basics- Controls</p>
 							  </a>
 						  </article>
 
@@ -190,7 +213,7 @@
 								  <header>
 									  <h3>Wall detection</h3>
 								  </header>
-								  <p>Turtlebot basics- Using Lidar data to control behavior of the Turtlebot</p>
+								  <p>Turtlebot basics- Lidar use</p>
 							  </a>
 						  </article>
 
@@ -201,7 +224,10 @@
 				<section id="banner">
 					<header>
 						
-						<p><h2><strong>Path Tracking Controllers & F1/10th Implementations</strong></h2></p>
+						<p><h2><strong>F1/10th Implementations</strong></h2></p>
+						<p>- Hands-on implementation of ADAS Algorithm on F1/10th vehicle<br>
+							- Devloping and implementing Path Tracking Controllers on F1/10th and CARLA Simulator</p>
+
 					</header>
 				</section>
 
@@ -221,16 +247,6 @@
 						</article>
 
 						<article>
-							<a class="image featured" href="https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/tree/master/Path%20Tracking/Stanley">
-								<img src="images/Gif/Controllers/Stanley_CALRA.gif" alt=""/>
-								<header>
-									<h3>Stanley Implementation on CALRA</h3>
-								</header>
-								<p>Geometric Path tracking algorithm</p>
-						 	</a>
-						</article>
-
-						<article>
 							<a class="image featured" href="https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/tree/master/Path%20Tracking/MPC">
 								<img src="images/Gif/F1_tenth_gym_ros/MPC.gif" alt=""/>
 								<header>
@@ -242,11 +258,21 @@
 
 						<article>
 							<a class="image featured" href="https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/tree/master/Path%20Tracking/Stanley">
+								<img src="images/Gif/Controllers/Stanley CARLA.gif" alt=""/>
+								<header>
+									<h3>Stanley Implementation on CARLA</h3>
+								</header>
+								<p>Geometric Path tracking algorithm</p>
+						 	</a>
+						</article>
+
+						<article>
+							<a class="image featured" href="https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/tree/master/Path%20Tracking/Stanley">
 								<img src="images/Gif/F1_tenth_gym_ros/stanley.gif" alt=""/>
 								<header>
 									<h3>Stanley Controller</h3>
 								</header>
-								<p>Stanley controller on f1/10th vehicle</p>
+								<p>Stanley implementation in F1/10th simulator</p>
 						 	</a>
 						</article>
 
@@ -254,9 +280,9 @@
 							<a class="image featured" href="https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/tree/master/Obstacle%20Avoidance">
 								<img src="images/Gif/F1_tenth_gym_ros/Follow_the_gap.gif" alt=""/>
 								<header>
-									<h3>Reactive Method of Obstacle Avoidance</h3>
+									<h3>Follow the Gap</h3>
 								</header>
-								<p>Follow the gap method implemented on f1/10th</p>
+								<p>Reactive Method of Obstacle Avoidance</p>
 						 	</a>
 						</article>
 
@@ -297,12 +323,22 @@
 						  </article>
 
 						  <article>
+							<a class="image featured" href="https://github.com/prateeks97/Motion_Planning/tree/master/Force%20Based%20Local%20Navigation/8%20Agents">
+								  <img src="images/Gif/Motion Planning/8_agents.gif" alt="" />
+								  <header>
+									  <h3>8 Agents</h3>
+								  </header>
+								  <p>Force-based Local Navigation under uncertainity</p>
+							  </a>
+						  </article>
+
+						  <article>
 							<a class="image featured" href="https://github.com/prateeks97/Motion_Planning/tree/master/Sampling_based/RRT_RRT_star">
 								  <img src="images/Gif/Motion Planning/RRT_gif.gif" alt="" />
 								  <header>
 									  <h3>RRT</h3>
 								  </header>
-								  <p>Rapidly Exploring Random Tree</p>
+								  <p>Trajectory Planning</p>
 							  </a>
 						  </article>
 
@@ -312,7 +348,7 @@
 								  <header>
 									  <h3>Crowd Crossing</h3>
 								  </header>
-								  <p>Force-based Local Navigation under uncertainity</p>
+								  <p>Local Navigation under uncertainity for crowd</p>
 							  </a>
 						  </article>
 
@@ -347,15 +383,7 @@
 							  </a>
 						  </article>
 
-						  <article>
-							<a class="image featured" href="https://github.com/prateeks97/Motion_Planning/tree/master/Force%20Based%20Local%20Navigation/8%20Agents">
-								  <img src="images/Gif/Motion Planning/8_agents.gif" alt="" />
-								  <header>
-									  <h3>8 Agents</h3>
-								  </header>
-								  <p>Force-based Local Navigation under uncertainity</p>
-							  </a>
-						  </article>
+						  
 
 						  <article>
 							<a class="image featured" href="https://github.com/prateeks97/Motion_Planning/tree/master/Sampling_based/Probabilistic_Roadmap_PRM">
@@ -373,9 +401,20 @@
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
+
+						<div class="row">
+							<p><strong style="color:white"><h2>Skills</h2> </strong></p>
+							<p><strong style="color:white">Programming/ Coding Languages:</strong> C++, Python, MATLAB, SIMULINK<br>
+							<strong style="color:white">Software Development Platforms :</strong> Linux, Windows, Arduino IDE, Raspberry Pi, OpenCR<br>
+							<strong style="color:white">Softwares :</strong> ROS, Git, PreScan, Siemens NX, SolidWorks, CarSim<br>
+							<strong style="color:white">Technical Areas of Interest :</strong> Robotics, Motion Planning and Control, ROS, Behavior Planning, ADAS</p>
+
+
+						</div>
+
 						<div class="row">
 							<div class="12u">
-
+								
 								<!-- Contact -->
 									<section class="contact">
 										<header>
